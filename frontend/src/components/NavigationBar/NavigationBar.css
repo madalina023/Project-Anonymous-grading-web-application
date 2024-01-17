@@ -1,0 +1,52 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li button {
+  border: none;
+  background-color: transparent;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#optLivr
+{
+  border: none;
+  background-color: transparent;
+  display: block;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+#optLivr option
+{
+  border: none;
+  background-color: #333;
+  display: block;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+li button:hover:not(.active) {
+  background-color: #111;
+}
+
+.right {
+  float: right;
+}
+
+.active {
+  background-color: #00a2ff;
+}

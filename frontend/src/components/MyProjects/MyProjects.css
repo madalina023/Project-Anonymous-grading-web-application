@@ -1,0 +1,46 @@
+.containerMyProjects {
+  width: 80%;
+  /* height: 250px; */
+  background-color: #fff;
+  margin: 80px auto;
+  border-radius: 11px;
+  padding: 40px 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 70px;
+  color: #495d76;
+}
+
+.titluLivrabil {
+  float: left;
+  clear: both;
+}
+
+.linkLivrabil {
+  float: left;
+  clear: both;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.projectButton {
+  float: right;
+  padding: 10px;
+  border: none;
+  height: 35px;
+  background-color: #277ffd;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.addProjectButton button {
+  width: 100%;
+  border: none;
+  height: 35px;
+  background-color: #277ffd;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 20px;
+}

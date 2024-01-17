@@ -1,0 +1,39 @@
+.containerHomepage {
+  width: 70%;
+  height: 70vh;
+  background-color: #fff;
+  margin: 80px auto;
+  border-radius: 11px;
+  padding: 40px 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 70px;
+  color: #495d76;
+  display: flex;
+}
+
+.homepage-left {
+  width: 30%; 
+  float:left;
+}
+
+.homepage-right {
+  width: 70%; 
+  float:right;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+h3 {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
